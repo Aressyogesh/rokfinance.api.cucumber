@@ -1,0 +1,205 @@
+Request method:	POST
+Request URI:	https://www.loanbrokernetwork.biz/test-version/API/DealApi/createSubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=CODEX@123
+				Authorization=Basic Og==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "external_id": "0012h00000kOjcAAAS",
+    "opportunity_id": "0062h00000WQEuDAAX",
+    "submission_id": "a1m2h000002oNp1AAE",
+    "submission_name": "Submission-0030082",
+    "status": "Approved"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 May 2022 07:40:56 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Set-Cookie: ci_session=1a0791dbc05dbc7d8eb7b0b97a43f3153bef958a; expires=Mon, 09-May-2022 09:40:56 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure; SameSite=lax
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+Keep-Alive: timeout=2, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": true,
+    "message": "Submission created successfully."
+}
+Request method:	POST
+Request URI:	https://www.loanbrokernetwork.biz/test-version/API/DealApi/createSubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=CODEX@123
+				Authorization=Basic Og==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "external_id": "0012h00000kOjcAAAS",
+    "opportunity_id": "0062h00000WQEuDAAX",
+    "submission_id": "a1m2h000002oNp1AAF",
+    "submission_name": "Submission-0030082",
+    "status": "Approved"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 May 2022 07:40:58 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Set-Cookie: ci_session=59e40e43b9bd2de065ae99e4901e91dcde8f6aaf; expires=Mon, 09-May-2022 09:40:58 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure; SameSite=lax
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+Keep-Alive: timeout=2, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": true,
+    "message": "Submission created successfully."
+}
+Request method:	POST
+Request URI:	https://www.loanbrokernetwork.biz/test-version/API/DealApi/createSubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=CODEX@123
+				Authorization=Basic Og==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "external_id": "0012h00000kOjcAAAS",
+    "opportunity_id": "0062h00000WQEuDAAX",
+    "submission_id": "a1m2h000002oNp1AAG",
+    "submission_name": "Submission-0030082",
+    "status": "Approved"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 May 2022 07:40:59 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Set-Cookie: ci_session=8d4a4aba837691a000c1bffe90cbc128462324a9; expires=Mon, 09-May-2022 09:40:59 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure; SameSite=lax
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+Keep-Alive: timeout=2, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": true,
+    "message": "Submission created successfully."
+}
+Request method:	POST
+Request URI:	https://www.loanbrokernetwork.biz/test-version/API/DealApi/createSubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=CODEX@123
+				Authorization=Basic Og==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "external_id": "0012h00000kOjcAAAS",
+    "opportunity_id": "0062h00000WQEuDAAX",
+    "submission_id": "a1m2h000002oNp1AAH",
+    "submission_name": "Submission-0030082",
+    "status": "Approved"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 May 2022 07:41:00 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Set-Cookie: ci_session=1702c3881ade13aab5c74e483474ac21506ab36e; expires=Mon, 09-May-2022 09:41:00 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure; SameSite=lax
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+Keep-Alive: timeout=2, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": true,
+    "message": "Submission created successfully."
+}
+Request method:	POST
+Request URI:	https://www.loanbrokernetwork.biz/test-version/API/DealApi/createSubmission
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=CODEX@123
+				Authorization=Basic Og==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "external_id": "0012h00000kOjcAAAS",
+    "opportunity_id": "0062h00000WQEuDAAX",
+    "submission_id": "a1m2h000002oNp1AAI",
+    "submission_name": "Submission-0030082",
+    "status": "Approved"
+}
+HTTP/1.1 200 OK
+Date: Mon, 09 May 2022 07:41:02 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Set-Cookie: ci_session=2fa2598a6a284125a30beabee5b139aa37983c65; expires=Mon, 09-May-2022 09:41:02 GMT; Max-Age=7200; path=/; HttpOnly; HTTPOnly; Secure; SameSite=lax
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+Keep-Alive: timeout=2, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": true,
+    "message": "Submission created successfully."
+}
