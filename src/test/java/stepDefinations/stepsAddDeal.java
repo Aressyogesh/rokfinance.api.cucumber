@@ -4,6 +4,10 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.hamcrest.Matcher;
+import org.hamcrest.Matchers;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,6 +15,7 @@ import io.cucumber.java.en.When;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.ValidatableResponse;
 import resources.APIResources;
 import resources.TestDataBuild;
 import resources.Utils;
@@ -39,11 +44,17 @@ public class stepsAddDeal extends Utils {
 	@Then("the API call got success with status code {int}")
 	public void the_API_call_got_success_with_status_code(Integer int1) {
 		assertEquals(200, response.getStatusCode());
+		assertEquals("HTTP/1.1 200 OK", response.getStatusLine());
+		ValidatableResponse valRes = response.then();
+		valRes.time(Matchers.lessThan(3000L));
+		valRes.time(Matchers.lessThan(3000L), TimeUnit.SECONDS);
+		
 		String resp = response.asString();
-		System.out.println("Response Body - "+response.getBody().asPrettyString());
-		System.out.println("Response Header - "+response.getHeaders());
-		System.out.println("Status Code - " +response.getStatusCode());
+		System.out.println("Response Body - "+ response.getBody().asPrettyString());
+		System.out.println("Response Header - "+ response.getHeaders());
+		System.out.println("Status Code - " + response.getStatusCode());
 		System.out.println("Status Line - " + response.getStatusLine());
+		System.out.println("Response Time - "+ response.getTimeIn(TimeUnit.MILLISECONDS));
 		//System.out.println(resp);
 	}
 	@Then("{string} in response body is {string}")
@@ -55,6 +66,7 @@ public class stepsAddDeal extends Utils {
 	    	
 		token = js.get("token");
 		//System.out.println(token);
+		
 		 
 	    
 	}
